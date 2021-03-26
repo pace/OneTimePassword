@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Base32",
+        "repositoryURL": "/Users/pan/desktop/code/ios/Base32",
+        "state": {
+          "branch": "Fix-xcodebuild",
+          "revision": "dd2504c0d69ee31e9f20fc3324d3293bf124821d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
