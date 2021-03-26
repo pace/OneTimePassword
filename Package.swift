@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "OneTimePassword",
     platforms: [
-        .iOS(.v9),
+        .iOS(.v11),
         .watchOS(.v2)
     ],
     products: [
@@ -13,7 +13,7 @@ let package = Package(
             targets: ["OneTimePassword"])
     ],
     dependencies: [
-        .package(url: "https://github.com/pace/Base32", .exact("1.2.0"))
+        .package(url: "file:///Users/pan/desktop/code/ios/Base32", .branch("Fix-xcodebuild"))
     ],
     targets: [
         .target(name: "OneTimePassword", dependencies: ["Base32"], path: "Sources"),
