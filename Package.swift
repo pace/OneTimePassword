@@ -13,7 +13,7 @@ let package = Package(
             targets: ["OneTimePassword"])
     ],
     dependencies: [
-        .package(url: "https://github.com/pace/Base32", .exact("1.2.0"))
+        .package(url: "https://github.com/pace/Base32", .exact("1.2.1"))
     ],
     targets: [
         .target(name: "OneTimePassword", dependencies: ["Base32"], path: "Sources"),
